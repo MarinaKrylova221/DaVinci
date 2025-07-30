@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DaVinci Restaurant in Grub am Forst – Hausgemachte Küche mit Stil. Jetzt reservieren!" />
+  <meta name="keywords" content="Grub am Forst, Restaurant, Hausgemachte Küche, DaVinci, Reservierung" />
+  <meta name="author" content="DaVinci Restaurant" />
+  <title>DaVinci Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+<header class="main-header">
+  <div class="header-container">
+    <div class="logo">
+      <img src="img/logo.png" alt="DaVinci Logo">
+    </div>
+
+    <button class="burger" id="burger" aria-label="Menü öffnen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Über uns</a></li>
+        <li><a href="#reservierung">Reservierung</a></li>
+        <li><a href="#menu-section">Speisekarte</a></li>
+        <li><a href="#gallery-section">Galerie</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+
+  <section class="hero-section" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-slider">
+      <img src="img/IMG_6679.JPG" alt="Restaurant" class="active-slide">
+      <img src="img/IMG_6680.JPG" alt="Dessert">
+      <img src="img/photo_2025-07-27_19-41-24.jpg" alt="Küche">
+    </div>
+    <div class="hero-content">
+      <h1>Willkommen bei DaVinci</h1>
+      <p>Hausgemachte Küche mit Liebe zum Detail</p>
+      <a href="#reservierung" class="btn">Jetzt reservieren</a>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+  <div class="container">
+    <div class="about-content">
+      <div class="about-text collapsed">
+        <h2>Über uns</h2>
+        <p>
+          <strong>Café DaVinci</strong> ist ein gemütlicher Ort in der Gemeinde Grub am Forst in Oberfranken,
+          wo jeder stilvoll entspannen und köstliches Essen genießen kann. Die Speisekarte des Café DaVinci ist
+          eine Symphonie der europäischen Küche, in der die Quinte der Geschmackserlebnisse und der präzise
+          Kammerton der Rezepte eine unverwechselbare gastronomische Resonanz erzeugen.
+        </p>
+        <div class="more-text">
+          <p>
+            Dank der durchdachten Raumnutzung sind im Café vier Bereiche harmonisch vereint: der Hauptsaal,
+            eine gemütliche Ecke im Freien, ein spezieller Raum für Kinder mit Karaoke und Animation, sowie
+            eine Business-Lounge für ruhige Gespräche und Inspiration – begleitet von Live-Musik.
+          </p>
+          <p>
+            Hier sind sowohl Erwachsene als auch Kinder und Jugendliche willkommen: Im Café DaVinci findet jeder
+            seinen eigenen Platz für harmonische Erholung, interessante Gespräche und neue Eindrücke.
+          </p>
+        </div>
+        <button class="btn read-more-btn">Mehr über uns</button>
+      </div>
+      <div class="about-media">
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                  title="Café DaVinci Video"
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Event-->
+<section id="event" class="event-section">
+  <div class="container">
+    <div class="event-content">
+      <div class="event-image">
+        <img src="img/photo_2025-07-29_14-51-50.jpg" alt="Event im Café DaVinci">
+      </div>
+      <div class="event-text">
+        <h2>Besondere Events im Café DaVinci</h2>
+        <p>
+          Ob Musikabend, Lesung oder privates Fest – unsere Events verbinden Genuss, Kultur und Atmosphäre.
+        </p>
+        
+        <ul class="event-info">
+          <li><strong>Wann:</strong> Samstag, 1. August 2025</li>
+          <li><strong>Uhrzeit:</strong> ab 18:00 Uhr</li>
+          <li><strong>Wo:</strong> Café DaVinci, Grub am Forst</li>
+        </ul>
+        <a href="#kontakt" class="btn">Jetzt reservieren</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>
+
+
+<!--Menu-->
+<section id="menu-section" class="menu-section">
+  <div class="menu-block fade-in" style="background-image: url('img/Shashuka.jpg')">
+    <div class="menu-overlay">
+      <h1> Frühstück</h1>
+      <p>Täglich: 8:00 – 12:00</p>
+      <a href="https://example.com/frühstück" target="_blank" class="menu-btn">Zum Menü</a>
+    </div>
+  </div>
+
+  <div class="menu-block fade-in" style="background-image: url('img/Bäckerei.JPG')">
+    <div class="menu-overlay">
+      <h1> Bäckerei</h1>
+      <p>Täglich: 6:00 – 12:00</p>
+      <a href="https://example.com/bäckerei" target="_blank" class="menu-btn">Zum Menü</a>
+    </div>
+  </div>
+
+  <div class="menu-block fade-in" style="background-image: url('img/cafe.jpg')">
+    <div class="menu-overlay">
+      <h1> Konditorei</h1>
+      <p>Täglich: 8:00 – 14:00</p>
+      <a href="https://example.com/konditorei" target="_blank" class="menu-btn">Zum Menü</a>
+    </div>
+  </div>
+</section>
+
+<!--Fotos-->
+
+<section class="photo-section" id="gallery">
+  <div class="zauberecke-container">
+    <h2>🌟 Willkommen in unserer Zauberecke! 😺</h2>
+    <p>
+      Hier spielen die Kinder mit Lächeln und Spaß –<br>
+      mit Büchern, Bausteinen und bunter Maß! 🎨📚
+    </p>
+    <p>
+      Während Mama den Kaffee genießt ganz geschwind,<br>
+      erklingen hier Lachen und Freude vom Kind. ☕🎈
+    </p>
+    <p>
+      Ein Ort voller Zauber, Träumen und Licht –<br>
+      wo jedes Kinderherz vor Freude spricht! 😻💫
+    </p>
+  </div>
+
+  <div class="gallery-grid">
+    <img src="img/cafe.jpg" alt="Foto 1" class="gallery-img">
+    <img src="img/photo_2025-07-29_14-50-27.jpg" alt="Foto 2" class="gallery-img">
+    <img src="img/photo_2025-07-29_14-50-19.jpg" alt="Foto 3" class="gallery-img">
+    <img src="img/H73A4529.jpg" alt="Foto 4" class="gallery-img">
+    <img src="img/H73A4523.jpg" alt="Foto 5" class="gallery-img">
+    <img src="img/H73A4432.jpg" alt="Foto 6" class="gallery-img">
+  </div>
+
+  <!-- Fullscreen viewer -->
+  <div class="fullscreen-viewer" id="fullscreenViewer">
+    <span class="close-btn" id="closeViewer">&times;</span>
+    <img id="fullscreenImage" src="" alt="Großes Bild">
+  </div>
+</section>
+
+<!--Gallery-->
+<!-- Галерея -->
+<section class="gallery-section" id="gallery-section">
+  <h2>Galerie</h2>
+  <div class="gallery-grid">
+    <img src="img/photo_2025-07-27_19-41-24.jpg" alt="Foto 1" class="gallery-img">
+    <img src="img/photo_2025-07-29_14-49-26.jpg" alt="Foto 2" class="gallery-img">
+    <img src="img/photo_2025-07-29_14-49-46.jpg" alt="Foto 3" class="gallery-img">
+    <img src="img/photo_2025-07-29_14-50-12.jpg" alt="Foto 4" class="gallery-img">
+    <img src="img/photo_2025-07-29_14-50-19.jpg" alt="Foto 5" class="gallery-img">
+    <img src="img/photo_2025-07-29_14-50-27.jpg" alt="Foto 6" class="gallery-img">
+   <!-- <img src="img/photo_2025-07-29_14-50-32.jpg" alt="Foto 7" class="gallery-img">-->
+    <img src="img/photo_2025-07-29_14-50-32.jpg" alt="Foto 8" class="gallery-img">
+    <img src="img/photo_2025-07-29_14-51-50.jpg" alt="Foto 9" class="gallery-img">
+    <img src="img/photo_2025-07-29_14-51-57.jpg" alt="Foto 10" class="gallery-img">
+  </div>
+
+  <!-- Lightbox для галереи -->
+  <div id="galleryLightbox" class="lightbox">
+    <button id="galleryCloseBtn" class="close-btn">×</button>
+    <button id="galleryPrevBtn" class="nav-btn prev-btn">&#10094;</button>
+    <img id="galleryLightboxImg" src="" alt="Großes Foto">
+    <button id="galleryNextBtn" class="nav-btn next-btn">&#10095;</button>
+  </div>
+</section>
+
+
+  <!-- Viewer для фото -->
+  <div id="photosViewer" class="viewer">
+    <button id="photosCloseBtn" class="close-btn">×</button>
+    <img id="photosViewerImg" src="" alt="Großes Foto">
+  </div>
+</section>
+
+
+<!--Kontakt-->
+<section id="kontakt" class="kontakt-section">
+  <div class="container">
+    <h2 class="section-title">Kontakt</h2>
+    
+    <div class="kontakt-box">
+      <div class="kontakt-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <h3>Adresse</h3>
+          <p>Sreinweg 5,<br>96271 Grub am Forst, Bayern</p>
+        </div>
+      </div>
+
+      <div class="kontakt-item">
+        <i class="fas fa-phone-alt"></i>
+        <div>
+          <h3>Telefon</h3>
+          <p><a href="tel:+4995609828649">+49 9560 9828649</a></p>
+        </div>
+      </div>
+
+      <div class="kontakt-item">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h3>E-Mail</h3>
+          <p><a href="mailto:info@cafe-davinci.de">info@cafe-davinci.de</a></p>
+        </div>
+      </div>
+
+      <div class="kontakt-item">
+        <i class="fas fa-clock"></i>
+        <div>
+          <h3>Öffnungszeiten</h3>
+          <p>Mo–Fr: 06:00 – 14:00<br>Fr: 17:30 – 22:00
+          <br>Sa: 08:00 – 14:00 und 17:30 – 22:00
+        <br>So: 08:00 – 14:00</p>
+        </div>
+      </div>
+
+      <div class="kontakt-item social">
+  <i class="fas fa-share-alt"></i>
+  <div>
+    <h3>Folgen Sie uns</h3>
+    <div class="social-icons">
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+
+  <footer class="site-footer">
+  <div class="container footer-container">
+    <div class="footer-left">
+      <p>&copy; 2025 Café DaVinci. Alle Rechte vorbehalten.</p>
+    </div>
+
+    <div class="footer-right">
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="/faq.html">FAQ</a>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
